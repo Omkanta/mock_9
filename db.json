@@ -1,16 +1,50 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "fullName": "Om kant",
+      "email": "om@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "fullName": "deepak",
+      "email": "deepak@gmail.com",
+      "password": "12345",
+      "id": 2
     }
   ],
-  "comments" : [
+  "tracker": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "type": "Income",
+      "category": "Gifts",
+      "amount": 456,
+      "date": "2023-06-03",
+      "email": "om@gmail.com",
+      "id": 1
+    },
+    {
+      "type": "Income",
+      "category": "Salary",
+      "amount": 40652,
+      "date": "2023-06-01",
+      "email": "om@gmail.com",
+      "id": 2
+    },
+    {
+      "type": "Expense",
+      "category": "Bills",
+      "amount": 1000,
+      "date": "2023-06-02",
+      "email": "om@gmail.com",
+      "id": 3
+    },
+    {
+      "type": "Income",
+      "category": "Refunds",
+      "amount": 500,
+      "date": "2023-06-04",
+      "email": "deepak@gmail.com",
+      "id": 4
     }
   ]
 }
